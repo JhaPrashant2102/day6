@@ -53,32 +53,4 @@ public class LibraryTest {
 		Assert.assertFalse(result);
 	}
 	
-	@Test
-	public void givenPassword_WhenProper_ShouldReturnTrue() {
-		UserValidator validator = new UserValidator();
-		boolean result = validator.validatePassword("Pr@sha9t");
-		Assert.assertTrue(true);
-		//todo doubt
-	}
-	
-	@Test
-	public void givenPassword_WhenNotProper_ShouldReturnFalse() {
-		UserValidator validator = new UserValidator();
-		boolean result = validator.validatePassword("Pr@@shant");
-		Assert.assertFalse(result);
-	}
-	
-	@Test
-	public void givenEmailId_WhenProper_ShouldReturnTrue() {
-		UserValidator validator = new UserValidator();
-		boolean result = validator.validateEmailId("prashant.jha@gmail.com");
-		Assert.assertTrue(result);
-	}
-	
-	@Test
-	public void givenEmailId_WhenNotProper_ShouldReturnFalse() {
-		UserValidator validator = new UserValidator();
-		boolean result = validator.validateEmailId(".jha@gmail.com");
-		Assert.assertFalse(result);
-	}
 }

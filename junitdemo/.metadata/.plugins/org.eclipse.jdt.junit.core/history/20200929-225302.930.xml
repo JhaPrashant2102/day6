@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LibraryTest (1)" project="DummyTesting" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="DummyTesting.LibraryTest" time="0.001">
+    <testcase name="givenFirstName_WhenProper_ShouldReturnTrue" classname="DummyTesting.LibraryTest" time="0.001"/>
+    <testcase name="givenPhoneNumber_WhenNotProper_ShouldReturnFalse" classname="DummyTesting.LibraryTest" time="0.0"/>
+    <testcase name="givenLastName_WhenNotProper_ShouldReturnFalse" classname="DummyTesting.LibraryTest" time="0.0"/>
+    <testcase name="givenFirstName_WhenNotProper_ShouldReturnFalse" classname="DummyTesting.LibraryTest" time="0.0"/>
+    <testcase name="givenLastName_WhenProper_ShouldReturnTrue" classname="DummyTesting.LibraryTest" time="0.0"/>
+    <testcase name="givenPhoneNumber_WhenProper_ShouldReturnTrue" classname="DummyTesting.LibraryTest" time="0.0"/>
+  </testsuite>
+</testrun>
