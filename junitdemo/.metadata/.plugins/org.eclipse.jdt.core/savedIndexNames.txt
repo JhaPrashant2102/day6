@@ -10,4 +10,3 @@ INDEX VERSION 1.131+C:\Users\prashant\Desktop\week1\day6\junitdemo\.metadata\.pl
 1994688270.index
 2945781113.index
 1574843208.index
-2690409818.index
