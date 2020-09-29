@@ -1,0 +1,16 @@
+/**
+* 
+*/
+package DummyTesting;
+import org.junit.test;
+
+/**
+ * @author prashant
+ *
+ */
+public class MoodAnalyserTest {
+	@Test
+	public void testAnalyseMood() {
+		new MoodAnalyserTes
+	}
+}
