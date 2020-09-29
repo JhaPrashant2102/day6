@@ -36,7 +36,7 @@ public class ValidEmailTest {
 			{"abc.100@abc.com.au",true},
 			{"abc@1.com",true},
 			{"abc@gmail.com",true},
-			{"abc+100@gmail.com",true},
+			{"abc+100@gmail.com",false},
 			{"abc",false},
 			{"abc@.com.my",false},
 			{"abc123@gmail.a",false},

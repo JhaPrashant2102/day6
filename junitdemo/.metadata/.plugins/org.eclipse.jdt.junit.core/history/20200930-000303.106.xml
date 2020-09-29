@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ValidEmailTest" project="DummyTesting" tests="22" started="22" failures="1" errors="0" ignored="0">
+  <testsuite name="DummyTesting.ValidEmailTest" time="0.009">
+    <testsuite name="[0]" time="0.0">
+      <testcase name="givenEmailId_WhenProper_ShouldReturnTrue[0]" classname="DummyTesting.ValidEmailTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[1]" time="0.0">
+      <testcase name="givenEmailId_WhenProper_ShouldReturnTrue[1]" classname="DummyTesting.ValidEmailTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[2]" time="0.0">
+      <testcase name="givenEmailId_WhenProper_ShouldReturnTrue[2]" classname="DummyTesting.ValidEmailTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[3]" time="0.0">
+      <testcase name="givenEmailId_WhenProper_ShouldReturnTrue[3]" classname="DummyTesting.ValidEmailTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[4]" time="0.0">
+      <testcase name="givenEmailId_WhenProper_ShouldReturnTrue[4]" classname="DummyTesting.ValidEmailTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[5]" time="0.0">
+      <testcase name="givenEmailId_WhenProper_ShouldReturnTrue[5]" classname="DummyTesting.ValidEmailTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[6]" time="0.0">
+      <testcase name="givenEmailId_WhenProper_ShouldReturnTrue[6]" classname="DummyTesting.ValidEmailTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[7]" time="0.0">
+      <testcase name="givenEmailId_WhenProper_ShouldReturnTrue[7]" classname="DummyTesting.ValidEmailTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[8]" time="0.001">
+      <testcase name="givenEmailId_WhenProper_ShouldReturnTrue[8]" classname="DummyTesting.ValidEmailTest" time="0.001">
+        <failure>java.lang.AssertionError: expected:&lt;false&gt; but was:&lt;true&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:834)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:118)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at DummyTesting.ValidEmailTest.givenEmailId_WhenProper_ShouldReturnTrue(ValidEmailTest.java:60)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at org.junit.runners.Suite.runChild(Suite.java:128)&#13;
+	at org.junit.runners.Suite.runChild(Suite.java:27)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</failure>
+      </testcase>
+    </testsuite>
+    <testsuite name="[9]" time="0.0">
+      <testcase name="givenEmailId_WhenProper_ShouldReturnTrue[9]" classname="DummyTesting.ValidEmailTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[10]" time="0.0">
+      <testcase name="givenEmailId_WhenProper_ShouldReturnTrue[10]" classname="DummyTesting.ValidEmailTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[11]" time="0.0">
+      <testcase name="givenEmailId_WhenProper_ShouldReturnTrue[11]" classname="DummyTesting.ValidEmailTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[12]" time="0.001">
+      <testcase name="givenEmailId_WhenProper_ShouldReturnTrue[12]" classname="DummyTesting.ValidEmailTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[13]" time="0.0">
+      <testcase name="givenEmailId_WhenProper_ShouldReturnTrue[13]" classname="DummyTesting.ValidEmailTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[14]" time="0.002">
+      <testcase name="givenEmailId_WhenProper_ShouldReturnTrue[14]" classname="DummyTesting.ValidEmailTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="[15]" time="0.001">
+      <testcase name="givenEmailId_WhenProper_ShouldReturnTrue[15]" classname="DummyTesting.ValidEmailTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[16]" time="0.0">
+      <testcase name="givenEmailId_WhenProper_ShouldReturnTrue[16]" classname="DummyTesting.ValidEmailTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[17]" time="0.0">
+      <testcase name="givenEmailId_WhenProper_ShouldReturnTrue[17]" classname="DummyTesting.ValidEmailTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[18]" time="0.0">
+      <testcase name="givenEmailId_WhenProper_ShouldReturnTrue[18]" classname="DummyTesting.ValidEmailTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[19]" time="0.0">
+      <testcase name="givenEmailId_WhenProper_ShouldReturnTrue[19]" classname="DummyTesting.ValidEmailTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[20]" time="0.002">
+      <testcase name="givenEmailId_WhenProper_ShouldReturnTrue[20]" classname="DummyTesting.ValidEmailTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="[21]" time="0.002">
+      <testcase name="givenEmailId_WhenProper_ShouldReturnTrue[21]" classname="DummyTesting.ValidEmailTest" time="0.002"/>
+    </testsuite>
+  </testsuite>
+</testrun>

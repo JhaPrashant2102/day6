@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LibraryTest (1)" project="DummyTesting" tests="10" started="10" failures="0" errors="0" ignored="0">
+  <testsuite name="DummyTesting.LibraryTest" time="0.003">
+    <testcase name="givenEmailId_WhenNotProper_ShouldReturnFalse" classname="DummyTesting.LibraryTest" time="0.0"/>
+    <testcase name="givenFirstName_WhenProper_ShouldReturnTrue" classname="DummyTesting.LibraryTest" time="0.0"/>
+    <testcase name="givenPhoneNumber_WhenNotProper_ShouldReturnFalse" classname="DummyTesting.LibraryTest" time="0.0"/>
+    <testcase name="givenEmailId_WhenProper_ShouldReturnTrue" classname="DummyTesting.LibraryTest" time="0.0"/>
+    <testcase name="givenLastName_WhenNotProper_ShouldReturnFalse" classname="DummyTesting.LibraryTest" time="0.0"/>
+    <testcase name="givenFirstName_WhenNotProper_ShouldReturnFalse" classname="DummyTesting.LibraryTest" time="0.0"/>
+    <testcase name="givenLastName_WhenProper_ShouldReturnTrue" classname="DummyTesting.LibraryTest" time="0.0"/>
+    <testcase name="givenPassword_WhenNotProper_ShouldReturnFalse" classname="DummyTesting.LibraryTest" time="0.0"/>
+    <testcase name="givenPassword_WhenProper_ShouldReturnTrue" classname="DummyTesting.LibraryTest" time="0.0"/>
+    <testcase name="givenPhoneNumber_WhenProper_ShouldReturnTrue" classname="DummyTesting.LibraryTest" time="0.002"/>
+  </testsuite>
+</testrun>
