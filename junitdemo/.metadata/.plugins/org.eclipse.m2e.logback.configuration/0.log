@@ -63,3 +63,131 @@
 2020-09-30 19:52:31,865 [Worker-147: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-09-30 19:52:31,866 [Worker-147: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\main\resources
 2020-09-30 19:52:31,868 [Worker-147: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 19:52:31,868 [Worker-147: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\test\resources
+2020-09-30 20:12:29,058 [Worker-146: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 20:12:29,058 [Worker-146: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\main\resources
+2020-09-30 20:12:29,063 [Worker-146: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 20:12:29,063 [Worker-146: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\test\resources
+2020-09-30 20:12:33,833 [Worker-158: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:moodanalyser:0.0.1-SNAPSHOT @ C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\pom.xml.
+2020-09-30 20:12:33,935 [Worker-158: Building] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Unable to add com/moodanalyser/0.0.1-SNAPSHOT/moodanalyser-0.0.1-SNAPSHOT.pom
+java.io.FileNotFoundException: no segments* file found in org.apache.lucene.store.FSDirectory@C:\Users\prashant\Desktop\week1\day6\junitdemo\.metadata\.plugins\org.eclipse.m2e.core\nexus\830bc118332e77292949ed1e6d2fabe0: files: _0.cfs _1.cfs _3.fdt _3.fdx
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:604)
+	at org.apache.lucene.index.SegmentInfos.readCurrentVersion(SegmentInfos.java:366)
+	at org.apache.lucene.index.DirectoryIndexReader.isCurrent(DirectoryIndexReader.java:237)
+	at org.apache.maven.index.context.DefaultIndexingContext.getIndexReader(DefaultIndexingContext.java:456)
+	at org.apache.maven.index.context.DefaultIndexingContext.getIndexSearcher(DefaultIndexingContext.java:475)
+	at org.apache.maven.index.context.IndexUtils.getGroups(IndexUtils.java:251)
+	at org.apache.maven.index.context.IndexUtils.getRootGroups(IndexUtils.java:220)
+	at org.apache.maven.index.context.DefaultIndexingContext.getRootGroups(DefaultIndexingContext.java:785)
+	at org.apache.maven.index.DefaultIndexerEngine.updateGroups(DefaultIndexerEngine.java:150)
+	at org.apache.maven.index.DefaultIndexerEngine.update(DefaultIndexerEngine.java:82)
+	at org.apache.maven.index.DefaultNexusIndexer.addArtifactToIndex(DefaultNexusIndexer.java:338)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.addDocument(NexusIndexManager.java:582)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.mavenProjectChanged(NexusIndexManager.java:756)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:990)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:317)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:151)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:89)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:88)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:197)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2020-09-30 20:12:33,950 [Worker-158: Building] ERROR o.e.m.jdt.internal.BuildPathManager - Can't save classpath container state for moodanalyser
+java.io.FileNotFoundException: C:\Users\prashant\Desktop\week1\day6\junitdemo\.metadata\.plugins\org.eclipse.m2e.jdt\moodanalyser.container (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.saveContainerState(BuildPathManager.java:222)
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.updateClasspath(BuildPathManager.java:211)
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.mavenProjectChanged(BuildPathManager.java:196)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:990)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:317)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:151)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:89)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:88)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:197)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2020-09-30 20:12:34,513 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 20:12:34,514 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\main\resources
+2020-09-30 20:12:34,517 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 20:12:34,517 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\test\resources
+2020-09-30 20:18:16,386 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 20:18:16,388 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\main\resources
+2020-09-30 20:18:16,390 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 20:18:16,391 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\test\resources
+2020-09-30 20:27:39,790 [Worker-163: Launching moodanalyser] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 20:27:39,790 [Worker-163: Launching moodanalyser] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\main\resources
+2020-09-30 20:27:39,793 [Worker-163: Launching moodanalyser] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 20:27:39,794 [Worker-163: Launching moodanalyser] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\test\resources
+2020-09-30 20:30:22,019 [Worker-164: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 20:30:22,020 [Worker-164: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\main\resources
+2020-09-30 20:30:22,022 [Worker-164: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 20:30:22,023 [Worker-164: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\test\resources
+2020-09-30 20:30:47,555 [Worker-167: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 20:30:47,556 [Worker-167: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\main\resources
+2020-09-30 20:30:47,558 [Worker-167: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 20:30:47,559 [Worker-167: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\test\resources
+2020-09-30 20:31:35,124 [Worker-168: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 20:31:35,125 [Worker-168: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\main\resources
+2020-09-30 20:31:35,127 [Worker-168: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 20:31:35,128 [Worker-168: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\test\resources
+2020-09-30 20:35:29,875 [Worker-169: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 20:35:29,875 [Worker-169: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\main\resources
+2020-09-30 20:35:29,877 [Worker-169: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 20:35:29,877 [Worker-169: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\test\resources
+2020-09-30 21:11:50,646 [Worker-174: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 21:11:50,647 [Worker-174: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\main\resources
+2020-09-30 21:11:50,652 [Worker-174: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 21:11:50,653 [Worker-174: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\test\resources
+2020-09-30 21:52:08,219 [Worker-173: Launching MoodAnalyserTest.givenNullMood_ShouldThrowException] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 21:52:08,222 [Worker-173: Launching MoodAnalyserTest.givenNullMood_ShouldThrowException] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\main\resources
+2020-09-30 21:52:08,227 [Worker-173: Launching MoodAnalyserTest.givenNullMood_ShouldThrowException] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 21:52:08,228 [Worker-173: Launching MoodAnalyserTest.givenNullMood_ShouldThrowException] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\test\resources
+2020-09-30 21:54:12,669 [Worker-173: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 21:54:12,669 [Worker-173: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\main\resources
+2020-09-30 21:54:12,672 [Worker-173: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 21:54:12,672 [Worker-173: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\test\resources
+2020-09-30 22:53:21,228 [Worker-203: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 22:53:21,230 [Worker-203: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\main\resources
+2020-09-30 22:53:21,233 [Worker-203: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 22:53:21,234 [Worker-203: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\test\resources
+2020-09-30 22:56:30,330 [Worker-206: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 22:56:30,331 [Worker-206: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\main\resources
+2020-09-30 22:56:30,333 [Worker-206: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 22:56:30,334 [Worker-206: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\test\resources
+2020-09-30 23:00:08,996 [Worker-204: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 23:00:08,997 [Worker-204: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\main\resources
+2020-09-30 23:00:08,999 [Worker-204: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 23:00:08,999 [Worker-204: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\test\resources
+2020-09-30 23:00:39,344 [Worker-206: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 23:00:39,344 [Worker-206: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\main\resources
