@@ -11,6 +11,5 @@ INDEX VERSION 1.131+C:\Users\prashant\Desktop\week1\day6\junitdemo\.metadata\.pl
 1887861699.index
 1574843208.index
 2690409818.index
-1985294214.index
 2105804241.index
 4263958146.index
