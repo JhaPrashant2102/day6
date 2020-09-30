@@ -191,3 +191,5 @@ java.io.FileNotFoundException: C:\Users\prashant\Desktop\week1\day6\junitdemo\.m
 2020-09-30 23:00:08,999 [Worker-204: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\test\resources
 2020-09-30 23:00:39,344 [Worker-206: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-09-30 23:00:39,344 [Worker-206: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\main\resources
+2020-09-30 23:00:39,348 [Worker-206: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-30 23:00:39,349 [Worker-206: Launching MoodAnalyserTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\day6\junitdemo\moodanalyser\src\test\resources
